@@ -1,4 +1,4 @@
-# Tehtävä 4: Summa
+# Tehtävä 3: Summa
 
 def summa(a, b):
     # Palauta lukujen summa
