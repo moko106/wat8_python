@@ -1,10 +1,7 @@
 # Tehtävä 1: Lisää luvut 1:stä n:ään asti listaan ja palauta se.
 
 def loop(n):
-  tulos = []
-  for i in range(1,n+1):
-     tulos.append(i)
-  return tulos
+  pass
   
 
 def test_loop():
