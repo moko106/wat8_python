@@ -43,10 +43,11 @@ lista=["Matematiikka", "Fysiikka", "Kemia"]
 print(lista)
 ```
 
-Listaan voi lisätä elementtejä ```lista.append()``` komennolla. Listasta voi poistaa elementtejä 
+Listaan voi lisätä elementtejä ```lista.append()``` komennolla. Listasta voi poistaa elementtejä
 
-i) ```lista.remove()``` -komennolla, jossa sulkuihin laitetaan se tieto, joka halutaan poistaa
-ii) ```lista.pop()``` -komennolla, jossa sulkuihin laitetaan järjestysnumero, jonka tieto halutaan poistaa
+```lista.remove()``` -komennolla, jossa sulkuihin laitetaan se tieto, joka halutaan poistaa
+
+```lista.pop()``` -komennolla, jossa sulkuihin laitetaan järjestysnumero, jonka tieto halutaan poistaa
 
 Huom! Python - kuten usein muutkin ohjelmointikielet - aloittavat laskemisen 0:sta
 
