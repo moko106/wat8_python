@@ -2,6 +2,8 @@
 
 Tässä osiossa tutustut Python-ohjelmoinnin perusteisiin ja datan käsittelyyn. Tehtävät on jaettu osioihin, joista jokaisessa on muutamia tehtäviä. Kopioi tehtävän koodi editoriin, kirjoita funktio. Koodissa on valmiit testit, joilla voit kokeilla toimiiko ohjelma oikein.
 
+Tätä kurssia on työstetty yhdessä tekoälyn kanssa (ChatGPT ja Copilot)
+
 ## Osio 1
 
 Tässä tutustut funktion käsitteeseen. Funktio alkaa aina def-sanalla, jonka jälkeen tulee funktion nimi. Tämän perässä suluissa voidaan antaa parametreja kullekin funktiolle. Esimerkiksi seuraava funktio laskee kahden luvun tulon.
