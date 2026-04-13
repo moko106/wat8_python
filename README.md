@@ -76,3 +76,91 @@ for i in lista:
 ## Osio 3
 
 Tässä osiossa ei tule juurikaan uutta infoa. Lue jokaisen tehtävänannon alussa oleva tehtävänanto huolella: sieltä löydät myös vinkkejä.
+
+## Osio 4
+
+### Sanakirjat (dict)
+
+Aikaisemmissa osioissa olet käsitellyt yksittäisiä muuttujia ja listoja. Joskus tieto koostuu kuitenkin **pareista**, joissa jokin asia liittyy toiseen asiaan. Tällöin sanakirja on sopiva tietorakenne.
+
+Sanakirjassa tieto tallennetaan **avain–arvo‑pareina**. Avain toimii ikään kuin nimenä ja arvo siihen liittyvänä tietona.
+
+Esimerkiksi oppilaan nimi ja arvosana voidaan tallentaa sanakirjaan näin:
+
+```python
+arvosanat = {
+    "Matti": 8,
+    "Liisa": 10,
+    "Pekka": 7
+}
+```
+
+Tässä:
+- **avaimet** ovat nimiä (`"Matti"`, `"Liisa"`, `"Pekka"`)
+- **arvot** ovat arvosanoja (`8`, `10`, `7`)
+
+Arvoihin voidaan viitata avaimen avulla:
+
+```python
+print(arvosanat["Liisa"])  # tulostaa 10
+```
+
+---
+
+### Sanakirjan luominen ja muokkaaminen
+
+Tyhjä sanakirja luodaan aaltosuluilla:
+
+```python
+tiedot = {}
+```
+
+Uusi avain–arvo‑pari lisätään suoraan sijoittamalla:
+
+```python
+tiedot["omena"] = 5
+tiedot["banaani"] = 3
+```
+
+Jos avain on jo olemassa, sen arvo päivittyy.
+
+---
+
+### Sanakirjan läpikäynti
+
+Sanakirjan läpi voi käydä silmukalla usealla tavalla:
+
+```python
+for avain in tiedot:
+    print(avain, tiedot[avain])
+```
+
+Tai pelkästään arvojen yli:
+
+```python
+for arvo in tiedot.values():
+    print(arvo)
+```
+
+---
+
+### Milloin käyttää sanakirjaa?
+
+Sanakirja on erityisen hyödyllinen, kun:
+- halutaan **laskea esiintymismääriä** (esim. sanojen lukumäärät)
+- yhdistetään kaksi listaa (esim. nimet ja arvosanat)
+- dataan liittyy selkeä **nimi → arvo** ‑suhde
+- halutaan nopeasti hakea tietoa avaimen perusteella
+
+---
+
+### Tehtävät tässä osiossa
+
+Tämän osion tehtävissä:
+- muodostetaan sanakirjoja listoista
+- päivitetään sanakirjan arvoja
+- lasketaan summia ja keskiarvoja
+- etsitään suurimpia arvoja
+- yhdistetään listoja ja sanakirjoja
+
+Osion tehtävät kokoavat yhteen aiemmissa osioissa opitut asiat (funktiot, silmukat, ehtolauseet ja listat) ja laajentavat niitä sanakirjojen käyttöön.
